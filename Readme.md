@@ -260,4 +260,4 @@ def write_content_to_file(content, format="md"):
 
 ## 🙏 致谢
 
-感谢 Datawhale 社区和 Hello-Agents 项目！
+感谢 Datawhale 社区和 [Hello-Agents](https://github.com/datawhalechina/hello-agents/) 项目！
