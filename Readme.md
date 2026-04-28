@@ -47,11 +47,11 @@
 
 ```bash
 # 克隆项目
-git clone <your-repo-url>
-cd smart-recipe-agent
+git clone https://github.com/AstrumPush/Smart-Recipe-Agent
+cd Smart-Recipe-Agent
 
 # 安装依赖
-pip install hello_agents python-dotenv
+pip install -r requirements.txt
 
 # 安装 Node.js 环境（用于 MCP 工具）
 # 访问 https://nodejs.org 下载安装
@@ -70,7 +70,7 @@ OPENAI_API_KEY=your_api_key_here
 ### 3️⃣ 运行程序
 
 ```bash
-python main.py
+python diet_recommendation_final.py
 ```
 
 ### 4️⃣ 交互示例
@@ -246,7 +246,7 @@ def write_content_to_file(content, format="md"):
 
 ## 💬 反馈与支持
 
-- 🐛 遇到问题？请提交 [Issue](issues)
+- 🐛 遇到问题？请提交 [Issue](https://github.com/AstrumPush/Smart-Recipe-Agent/issues)
 - 💡 有新想法？欢迎开启 [Discussion](discussions)
 - ⭐ 喜欢这个项目？点个 Star 支持一下！
 
